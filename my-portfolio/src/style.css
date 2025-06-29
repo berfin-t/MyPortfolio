@@ -11,7 +11,7 @@ html {
     rgba(12, 10, 22, 0.863)
   );
 
-  --imp-text-color: #c770f0;
+  --imp-text-color: #f07070;
 }
 
 .purple {
@@ -26,16 +26,16 @@ button:focus {
 /*  Preloader */
 /* --------- */
 #preloader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 999999;
-  background-color: #0c0513;
-  background-image: url(./Assets/pre.svg);
-  background-repeat: no-repeat;
-  background-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999999;
+    background-color: #130505;
+    background-image: url(./Assets/pre.svg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #preloader-none {
@@ -57,18 +57,18 @@ button:focus {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #2d1950;
+    background: #501919;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(178, 121, 216, 0.959);
+  background: rgba(216, 121, 121, 0.959);
   border-radius: 12px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(222, 130, 235, 0.911);
+  background: rgba(235, 130, 130, 0.911);
   border-radius: 12px;
 }
 
@@ -141,11 +141,11 @@ button:focus {
 }
 
 @media (max-width: 767px) {
-  .navbar {
-    padding: 1rem 2rem !important;
-    font-size: 1.4rem !important;
-    background-color: #181a27 !important;
-  }
+    .navbar {
+        padding: 1rem 2rem !important;
+        font-size: 1.4rem !important;
+        background-color: #271818 !important;
+    }
   .navbar-nav .nav-item a::after {
     display: none !important;
   }
@@ -281,17 +281,17 @@ button:focus {
 }
 
 .main-name {
-  color: #cd5ff8;
+    color: #f85f5f;
 }
 
 .Typewriter__wrapper {
-  font-size: 2.2em !important;
-  color: #be6adf !important;
-  font-weight: 600 !important;
+    font-size: 2.2em !important;
+    color: #df6a6a !important;
+    font-weight: 600 !important;
 }
 .Typewriter__cursor {
-  font-size: 2.4em !important;
-  color: #b562d6 !important;
+    font-size: 2.4em !important;
+    color: #d66262 !important;
 }
 
 @media (max-width: 767px) {
@@ -318,9 +318,9 @@ button:focus {
 }
 
 .home-about-section {
-  position: relative;
-  padding-bottom: 70px !important;
-  padding-top: 70px !important;
+    position: relative;
+    padding-bottom: 70px !important;
+    padding-top: 70px !important;
 }
 
 .home-about-description {
@@ -402,7 +402,7 @@ button:focus {
 /* Footer */
 /* --------- */
 .footer {
-  background-color: rgb(10, 4, 22);
+  background-color: rgb(22, 4, 4);
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
