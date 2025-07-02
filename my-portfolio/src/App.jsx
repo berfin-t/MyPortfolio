@@ -10,6 +10,7 @@ import {
     Route,
     Routes
 } from "react-router-dom";
+import About from "./components/About/About";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -31,7 +32,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           {/*<Route path="/project" element={<Projects />} />*/}
-          {/*<Route path="/about" element={<About />} />*/}
+          <Route path="/about" element={<About />} />
           {/*<Route path="/resume" element={<Resume />} />*/}
         {/*  <Route path="*" element={<Navigate to="/"/>} />*/}
         </Routes>
