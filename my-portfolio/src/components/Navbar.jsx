@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+﻿import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
@@ -55,7 +55,7 @@ function NavBar() {
                     <Nav className="ms-auto" defaultActiveKey="#home">
                         <Nav.Item>
                             <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                                <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
+                                <AiOutlineHome style={{ marginBottom: "2px" }} /> Ana Sayfa
                             </Nav.Link>
                         </Nav.Item>
 
@@ -65,7 +65,7 @@ function NavBar() {
                                 to="/about"
                                 onClick={() => updateExpanded(false)}
                             >
-                                <AiOutlineUser style={{ marginBottom: "2px" }} /> About
+                                <AiOutlineUser style={{ marginBottom: "2px" }} /> Hakkımda
                             </Nav.Link>
                         </Nav.Item>
 
@@ -78,7 +78,7 @@ function NavBar() {
                                 <AiOutlineFundProjectionScreen
                                     style={{ marginBottom: "2px" }}
                                 />{" "}
-                                Projects
+                                Projelerim
                             </Nav.Link>
                         </Nav.Item>
 
@@ -91,13 +91,13 @@ function NavBar() {
                                 style={{ display: "flex", alignItems: "center" }}
                             >
                                 <AiOutlineDownload style={{ marginBottom: "2px", marginRight: "5px" }} />
-                                Download CV
+                                CV İndir
                             </Nav.Link>
                         </Nav.Item>                        
 
                         <Nav.Item className="fork-btn">
                             <Button
-                                href="https://github.com/berfin-t/"
+                                href="https://github.com/berfin-t/MyPortfolio"
                                 target="_blank"
                                 className="fork-btn-inner"
                             >

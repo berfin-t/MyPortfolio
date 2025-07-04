@@ -16,8 +16,6 @@ function ProjectCards(props) {
                 </Button>
                 {"\n"}
                 {"\n"}
-
-
                     <Button
                         variant="primary"
                         href={props.demoLink}

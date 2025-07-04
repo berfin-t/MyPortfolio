@@ -21,7 +21,7 @@ function AboutCard() {
                         <ImPointRight /> <span className="purple">Veri Bilimi </span>stajları ve Bootcamp tecrübeleri sayesinde
                         <span className="purple"> Python, Makine Öğrenmesi, Veri Analizi ve Görselleştirme</span> konularında da bilgi sahibiyim.
                         <br /><br />
-                        <ImPointRight /> <span className="purple">Agile </span>ve <span className="purple">Scrum </span>metodolojilerini aktif olarak kullanıyor, güçlü problem çözme becerilerimle projelere değer katıyorum.
+                        <ImPointRight /> <span className="purple">Agile </span>ve <span className="purple">Scrum </span>metodolojilerine hakimim, güçlü problem çözme becerilerimle projelere değer katıyorum.
                         <br /><br />
                         <ImPointRight /> Hem <span className="purple">Backend</span> hem de <span className="purple">Frontend</span> tarafında
                         <span className="purple"> Fullstack</span> geliştirme yapabiliyorum.

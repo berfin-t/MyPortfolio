@@ -19,7 +19,7 @@ function HomeAbout() {
                             <br /> <br />
                             <span className="purple">Fullstack</span>'e ilgi duyuyorum.
                             <br /> <br />
-                            I am currently working <span className="purple">.Net Core, Blazor, React</span>
+                            Şu anda <span className="purple"> .Net Core, Blazor, React </span> üzerinde projeler geliştiriyorum.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
